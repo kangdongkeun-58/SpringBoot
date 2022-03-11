@@ -10,6 +10,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 @EnableConfigurationProperties(ApplicationProperties.class)
 public class DemoApplication {
 
+
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }

@@ -10,6 +10,6 @@ public class ApiHandler
     @GetMapping("api/check")
     public ResponseEntity<?> apiCheck()
     {
-        return ResponseEntity.ok("Hello?!!! 커밋 테스트 중입니다.");
+        return ResponseEntity.ok("Hello?");
     }
 }

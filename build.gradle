@@ -5,8 +5,8 @@ plugins {
 }
 
 bootJar{
-	archiveBaseName = '-'
-	archiveFileName = '-.jar'
+	archivesBaseName = 'DKDEV'
+	archiveFileName = 'DKDEV_bootJar.jar'
 	archiveVersion = "0.0.0"
 }
 
